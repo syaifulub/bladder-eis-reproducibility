@@ -1,0 +1,14 @@
+{
+ "random spectra (5-fold)": {
+  "spectrum_BA": 0.6692,
+  "unit_BA": 0.6867999999999999
+ },
+ "grouped by unit (5-fold)": {
+  "spectrum_BA": 0.5908,
+  "unit_BA": 0.6237999999999999
+ },
+ "leave-one-patient-out": {
+  "spectrum_BA": 0.584,
+  "unit_BA": 0.642
+ }
+}

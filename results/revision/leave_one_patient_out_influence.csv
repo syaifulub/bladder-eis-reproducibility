@@ -1,0 +1,25 @@
+Config,Removed,BA
+"Spectrum-wise, nested frequencies",P1,0.95
+"Spectrum-wise, nested frequencies",P2,0.9642857142857143
+"Spectrum-wise, nested frequencies",P3,0.9583333333333333
+"Spectrum-wise, nested frequencies",P4,0.9666666666666667
+"Spectrum-wise, nested frequencies",P5,0.9642857142857143
+"Spectrum-wise, nested frequencies",P6,1.0
+"Sample-wise, nested frequencies",P1,0.7
+"Sample-wise, nested frequencies",P2,0.8142857142857143
+"Sample-wise, nested frequencies",P3,0.8083333333333333
+"Sample-wise, nested frequencies",P4,0.7791666666666667
+"Sample-wise, nested frequencies",P5,0.9017857142857143
+"Sample-wise, nested frequencies",P6,0.85
+"Sample-wise, published set",P1,1.0
+"Sample-wise, published set",P2,0.9
+"Sample-wise, published set",P3,0.9
+"Sample-wise, published set",P4,0.875
+"Sample-wise, published set",P5,0.875
+"Sample-wise, published set",P6,0.9
+Fully nested pipeline,P1,1.0
+Fully nested pipeline,P2,0.95
+Fully nested pipeline,P3,0.95
+Fully nested pipeline,P4,0.9375
+Fully nested pipeline,P5,0.9375
+Fully nested pipeline,P6,0.95

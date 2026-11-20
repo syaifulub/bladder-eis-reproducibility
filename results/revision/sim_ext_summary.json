@@ -1,0 +1,38 @@
+{
+ "base": {
+  "naive_opt_min": 0.08685185185185183,
+  "naive_opt_max": 0.4190740740740741,
+  "matched_opt_min": -0.04930555555555557,
+  "matched_opt_max": 0.039768518518518516,
+  "sa_opt_min": -0.04865740740740742,
+  "sa_opt_max": 0.09300925925925928,
+  "naive_est_null_icc097": 0.9351851851851851
+ },
+ "correlated": {
+  "naive_opt_min": 0.12226851851851853,
+  "naive_opt_max": 0.4223148148148148,
+  "matched_opt_min": -0.02388888888888889,
+  "matched_opt_max": 0.028703703703703724,
+  "sa_opt_min": -0.039259259259259265,
+  "sa_opt_max": 0.11305555555555555,
+  "naive_est_null_icc097": 0.9425925925925926
+ },
+ "heterogeneous": {
+  "naive_opt_min": 0.09347222222222222,
+  "naive_opt_max": 0.38620370370370366,
+  "matched_opt_min": -0.026666666666666672,
+  "matched_opt_max": 0.0125,
+  "sa_opt_min": -0.046759259259259264,
+  "sa_opt_max": 0.12416666666666668,
+  "naive_est_null_icc097": 0.9314814814814815
+ },
+ "heteroscedastic": {
+  "naive_opt_min": 0.11157407407407406,
+  "naive_opt_max": 0.39805555555555555,
+  "matched_opt_min": -0.01203703703703705,
+  "matched_opt_max": 0.01574074074074075,
+  "sa_opt_min": -0.04013888888888887,
+  "sa_opt_max": 0.19847222222222222,
+  "naive_est_null_icc097": 0.9194444444444444
+ }
+}

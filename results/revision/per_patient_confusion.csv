@@ -1,0 +1,25 @@
+Config,Patient,TP,FN,TN,FP,BA
+"Spectrum-wise, nested frequencies",P1,6,0,6,0,1.0
+"Spectrum-wise, nested frequencies",P2,2,0,0,0,
+"Spectrum-wise, nested frequencies",P3,4,0,0,0,
+"Spectrum-wise, nested frequencies",P4,1,0,2,0,1.0
+"Spectrum-wise, nested frequencies",P5,2,0,2,0,1.0
+"Spectrum-wise, nested frequencies",P6,0,1,0,0,
+"Sample-wise, nested frequencies",P1,6,0,5,1,0.9166666666666667
+"Sample-wise, nested frequencies",P2,2,0,0,0,
+"Sample-wise, nested frequencies",P3,4,0,0,0,
+"Sample-wise, nested frequencies",P4,1,0,2,0,1.0
+"Sample-wise, nested frequencies",P5,2,0,0,2,0.5
+"Sample-wise, nested frequencies",P6,0,1,0,0,
+"Sample-wise, published set",P1,6,0,4,2,0.8333333333333333
+"Sample-wise, published set",P2,2,0,0,0,
+"Sample-wise, published set",P3,4,0,0,0,
+"Sample-wise, published set",P4,1,0,2,0,1.0
+"Sample-wise, published set",P5,2,0,2,0,1.0
+"Sample-wise, published set",P6,1,0,0,0,
+Fully nested pipeline,P1,6,0,5,1,0.9166666666666667
+Fully nested pipeline,P2,2,0,0,0,
+Fully nested pipeline,P3,4,0,0,0,
+Fully nested pipeline,P4,1,0,2,0,1.0
+Fully nested pipeline,P5,2,0,2,0,1.0
+Fully nested pipeline,P6,1,0,0,0,

@@ -1,0 +1,377 @@
+{
+ "fallback_outer": {
+  "choice": {
+   "P1": {
+    "representation": "freq",
+    "branch": "abs",
+    "inner_BA": 1.0
+   },
+   "P2": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9142857142857144
+   },
+   "P3": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.95
+   },
+   "P4": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9375
+   },
+   "P5": {
+    "representation": "freq",
+    "branch": "abs",
+    "inner_BA": 0.9017857142857143
+   },
+   "P6": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9166666666666667
+   }
+  },
+  "inner_method": {
+   "P1|P2": "LOPO",
+   "P1|P3": "LOPO",
+   "P1|P4": "outer",
+   "P1|P5": "outer",
+   "P1|P6": "LOPO",
+   "P2|P1": "LOPO",
+   "P2|P3": "LOPO",
+   "P2|P4": "LOPO",
+   "P2|P5": "LOPO",
+   "P2|P6": "LOPO",
+   "P3|P1": "LOPO",
+   "P3|P2": "LOPO",
+   "P3|P4": "LOPO",
+   "P3|P5": "LOPO",
+   "P3|P6": "LOPO",
+   "P4|P1": "outer",
+   "P4|P2": "LOPO",
+   "P4|P3": "LOPO",
+   "P4|P5": "outer",
+   "P4|P6": "LOPO",
+   "P5|P1": "outer",
+   "P5|P2": "LOPO",
+   "P5|P3": "LOPO",
+   "P5|P4": "outer",
+   "P5|P6": "LOPO",
+   "P6|P1": "LOPO",
+   "P6|P2": "LOPO",
+   "P6|P3": "LOPO",
+   "P6|P4": "LOPO",
+   "P6|P5": "LOPO"
+  },
+  "BA": 0.7125,
+  "TP": 10,
+  "N1": 16,
+  "TN": 8,
+  "N0": 10,
+  "AUC": 0.7625,
+  "CI": [
+   0.5,
+   1.0
+  ],
+  "n_cole": 4,
+  "n_abs": 6
+ },
+ "fallback_generic": {
+  "choice": {
+   "P1": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 1.0
+   },
+   "P2": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9142857142857144
+   },
+   "P3": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.95
+   },
+   "P4": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9375
+   },
+   "P5": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.8660714285714286
+   },
+   "P6": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9166666666666667
+   }
+  },
+  "inner_method": {
+   "P1|P2": "LOPO",
+   "P1|P3": "LOPO",
+   "P1|P4": "generic",
+   "P1|P5": "generic",
+   "P1|P6": "LOPO",
+   "P2|P1": "LOPO",
+   "P2|P3": "LOPO",
+   "P2|P4": "LOPO",
+   "P2|P5": "LOPO",
+   "P2|P6": "LOPO",
+   "P3|P1": "LOPO",
+   "P3|P2": "LOPO",
+   "P3|P4": "LOPO",
+   "P3|P5": "LOPO",
+   "P3|P6": "LOPO",
+   "P4|P1": "generic",
+   "P4|P2": "LOPO",
+   "P4|P3": "LOPO",
+   "P4|P5": "generic",
+   "P4|P6": "LOPO",
+   "P5|P1": "generic",
+   "P5|P2": "LOPO",
+   "P5|P3": "LOPO",
+   "P5|P4": "generic",
+   "P5|P6": "LOPO",
+   "P6|P1": "LOPO",
+   "P6|P2": "LOPO",
+   "P6|P3": "LOPO",
+   "P6|P4": "LOPO",
+   "P6|P5": "LOPO"
+  },
+  "BA": 0.95,
+  "TP": 16,
+  "N1": 16,
+  "TN": 9,
+  "N0": 10,
+  "AUC": 0.90625,
+  "CI": [
+   0.9166666666666667,
+   1.0
+  ],
+  "n_cole": 6,
+  "n_abs": 6
+ },
+ "matched": {
+  "choice": {
+   "P1": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 1.0
+   },
+   "P2": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9142857142857144
+   },
+   "P3": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.8666666666666667
+   },
+   "P4": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.8708333333333333
+   },
+   "P5": {
+    "representation": "freq",
+    "branch": "abs",
+    "inner_BA": 0.9642857142857143
+   },
+   "P6": {
+    "representation": "cole",
+    "branch": "fusion",
+    "inner_BA": 0.9166666666666667
+   }
+  },
+  "inner_method": {
+   "P1|P2": "LOPO",
+   "P1|P3": "LOPO",
+   "P1|P4": "LOSO",
+   "P1|P5": "LOSO",
+   "P1|P6": "LOPO",
+   "P2|P1": "LOPO",
+   "P2|P3": "LOPO",
+   "P2|P4": "LOPO",
+   "P2|P5": "LOPO",
+   "P2|P6": "LOPO",
+   "P3|P1": "LOPO",
+   "P3|P2": "LOPO",
+   "P3|P4": "LOPO",
+   "P3|P5": "LOPO",
+   "P3|P6": "LOPO",
+   "P4|P1": "LOSO",
+   "P4|P2": "LOPO",
+   "P4|P3": "LOPO",
+   "P4|P5": "LOSO",
+   "P4|P6": "LOPO",
+   "P5|P1": "LOSO",
+   "P5|P2": "LOPO",
+   "P5|P3": "LOPO",
+   "P5|P4": "LOSO",
+   "P5|P6": "LOPO",
+   "P6|P1": "LOPO",
+   "P6|P2": "LOPO",
+   "P6|P3": "LOPO",
+   "P6|P4": "LOPO",
+   "P6|P5": "LOPO"
+  },
+  "BA": 0.75625,
+  "TP": 13,
+  "N1": 16,
+  "TN": 7,
+  "N0": 10,
+  "AUC": 0.8624999999999999,
+  "CI": [
+   0.3076923076923077,
+   0.9226190476190477
+  ],
+  "n_cole": 5,
+  "n_abs": 5
+ },
+ "p2_exchanged": {
+  "choice": {
+   "P1": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.6666666666666666
+   },
+   "P2": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9142857142857144
+   },
+   "P3": {
+    "representation": "freq",
+    "branch": "mah",
+    "inner_BA": 0.8333333333333333
+   },
+   "P4": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.85
+   },
+   "P5": {
+    "representation": "cole",
+    "branch": "fusion",
+    "inner_BA": 0.5846153846153846
+   },
+   "P6": {
+    "representation": "freq",
+    "branch": "abs",
+    "inner_BA": 0.8392857142857143
+   }
+  },
+  "inner_method": {
+   "P1|P2": "LOPO",
+   "P1|P3": "LOPO",
+   "P1|P4": "LOPO",
+   "P1|P5": "LOPO",
+   "P1|P6": "LOPO",
+   "P2|P1": "LOPO",
+   "P2|P3": "LOPO",
+   "P2|P4": "LOPO",
+   "P2|P5": "LOPO",
+   "P2|P6": "LOPO",
+   "P3|P1": "LOPO",
+   "P3|P2": "LOPO",
+   "P3|P4": "LOPO",
+   "P3|P5": "LOPO",
+   "P3|P6": "LOPO",
+   "P4|P1": "LOPO",
+   "P4|P2": "LOPO",
+   "P4|P3": "LOPO",
+   "P4|P5": "LOPO",
+   "P4|P6": "LOPO",
+   "P5|P1": "LOPO",
+   "P5|P2": "LOPO",
+   "P5|P3": "LOPO",
+   "P5|P4": "LOPO",
+   "P5|P6": "LOPO",
+   "P6|P1": "LOPO",
+   "P6|P2": "LOPO",
+   "P6|P3": "LOPO",
+   "P6|P4": "LOPO",
+   "P6|P5": "LOPO"
+  },
+  "BA": 0.6083333333333334,
+  "TP": 7,
+  "N1": 15,
+  "TN": 9,
+  "N0": 12,
+  "AUC": 0.5611111111111111,
+  "CI": [
+   0.275,
+   0.7976190476190477
+  ],
+  "n_cole": 4,
+  "n_abs": 4
+ },
+ "p2_excluded": {
+  "choice": {
+   "P1": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 1.0
+   },
+   "P3": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9
+   },
+   "P4": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.8990384615384616
+   },
+   "P5": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9375
+   },
+   "P6": {
+    "representation": "cole",
+    "branch": "abs",
+    "inner_BA": 0.9115384615384616
+   }
+  },
+  "inner_method": {
+   "P1|P3": "LOPO",
+   "P1|P4": "LOSO",
+   "P1|P5": "LOSO",
+   "P1|P6": "LOPO",
+   "P3|P1": "LOPO",
+   "P3|P4": "LOPO",
+   "P3|P5": "LOPO",
+   "P3|P6": "LOPO",
+   "P4|P1": "LOSO",
+   "P4|P3": "LOPO",
+   "P4|P5": "LOSO",
+   "P4|P6": "LOPO",
+   "P5|P1": "LOSO",
+   "P5|P3": "LOPO",
+   "P5|P4": "LOSO",
+   "P5|P6": "LOPO",
+   "P6|P1": "LOPO",
+   "P6|P3": "LOPO",
+   "P6|P4": "LOPO",
+   "P6|P5": "LOPO"
+  },
+  "BA": 0.9142857142857144,
+  "TP": 13,
+  "N1": 14,
+  "TN": 9,
+  "N0": 10,
+  "AUC": 0.9142857142857143,
+  "CI": [
+   0.842948717948718,
+   1.0
+  ],
+  "n_cole": 5,
+  "n_abs": 5
+ }
+}

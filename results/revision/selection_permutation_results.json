@@ -1,0 +1,26 @@
+{
+ "n_perm": 100,
+ "BA_selected": {
+  "observed": 0.95,
+  "null_mean": 0.47112499999999996,
+  "null_sd": 0.09654617948281162,
+  "null_q025": 0.31546874999999996,
+  "null_q975": 0.6914062499999998,
+  "null_max": 0.75,
+  "p_value": 0.009900990099009901
+ },
+ "BA_prespecified": {
+  "observed": 0.81875,
+  "null_mean": 0.45549999999999996,
+  "null_sd": 0.07223589128611199,
+  "null_q025": 0.32734375,
+  "null_q975": 0.6446874999999996,
+  "null_max": 0.675,
+  "p_value": 0.009900990099009901
+ },
+ "null_choice": {
+  "mean_folds_cole": 3.15,
+  "mean_folds_abs": 2.79,
+  "frac_all_cole_abs": 0.0
+ }
+}

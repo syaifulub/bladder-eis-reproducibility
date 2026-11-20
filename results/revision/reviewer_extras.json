@@ -1,0 +1,168 @@
+{
+ "influence": {
+  "Fully nested pipeline": {
+   "min": 0.9375,
+   "max": 1.0,
+   "min_patient": "P4",
+   "max_patient": "P1"
+  },
+  "Sample-wise, nested frequencies": {
+   "min": 0.7,
+   "max": 0.9017857142857143,
+   "min_patient": "P1",
+   "max_patient": "P5"
+  },
+  "Sample-wise, published set": {
+   "min": 0.875,
+   "max": 1.0,
+   "min_patient": "P4",
+   "max_patient": "P1"
+  },
+  "Spectrum-wise, nested frequencies": {
+   "min": 0.95,
+   "max": 1.0,
+   "min_patient": "P1",
+   "max_patient": "P6"
+  }
+ },
+ "frequency_stability": {
+  "sample-wise outer": {
+   "n_sets": 6,
+   "share_below_10k": 0.03333333333333333,
+   "share_10_100k": 0.13333333333333333,
+   "share_above_100k": 0.8333333333333334,
+   "mean_jaccard": 0.13941798941798939,
+   "n_distinct": 17,
+   "max_count": 3,
+   "most_frequent_khz": 184.20699693267164
+  },
+  "sample-wise inner": {
+   "n_sets": 30,
+   "share_below_10k": 0.24,
+   "share_10_100k": 0.12,
+   "share_above_100k": 0.64,
+   "mean_jaccard": 0.13471994161649334,
+   "n_distinct": 38,
+   "max_count": 12,
+   "most_frequent_khz": 494.17133613238383
+  },
+  "spectrum-wise outer": {
+   "n_sets": 6,
+   "share_below_10k": 0.06666666666666667,
+   "share_10_100k": 0.7666666666666667,
+   "share_above_100k": 0.16666666666666666,
+   "mean_jaccard": 0.246031746031746,
+   "n_distinct": 16,
+   "max_count": 5,
+   "most_frequent_khz": 14.563484775012444
+  }
+ },
+ "cole_out_of_window": {
+  "n": 59,
+  "per_sample": {
+   "P4:hbw6_001": 40,
+   "P1:hbw2_003": 14,
+   "P6:hbw8": 3,
+   "P1:hbw2_004": 2
+  }
+ },
+ "cole_in_window_only": {
+  "BA": 0.95,
+  "TP": 16,
+  "N1": 16,
+  "TN": 9,
+  "N0": 10,
+  "n_samples": 26,
+  "misclassified_main": [
+   "P1:hbw2_003"
+  ],
+  "misclassified_main_out_of_window": 14
+ },
+ "seed_stability": {
+  "Cole absolute (fully nested choice)": {
+   "BA_min": 0.91875,
+   "BA_max": 0.95,
+   "BA_sd": 0.015316641182923783,
+   "n_samples_changing_class": 1
+  },
+  "Nested frequencies, equal fusion": {
+   "BA_min": 0.81875,
+   "BA_max": 0.81875,
+   "BA_sd": 2.2584051416334807e-16,
+   "n_samples_changing_class": 0
+  }
+ },
+ "design_effect": {
+  "m_bar": 26.448275862068964,
+  "cv2": 0.38071764047942414,
+  "per_parameter": {
+   "healthy|ln R0": {
+    "ICC": 0.974881503530886,
+    "DE": 25.809053434682546,
+    "N_eff": 29.718253788001977,
+    "DE_kish": 35.62545230663415,
+    "N_eff_kish": 21.529551215190317
+   },
+   "healthy|ln Rinf": {
+    "ICC": 0.5726948712242603,
+    "DE": 15.574097067707038,
+    "N_eff": 49.248440963577785,
+    "DE_kish": 21.340747955529725,
+    "N_eff_kish": 35.94063345850341
+   },
+   "healthy|log10 fc": {
+    "ICC": 0.9674410826940515,
+    "DE": 25.619707552696894,
+    "N_eff": 29.9378905251891,
+    "DE_kish": 35.361186407759256,
+    "N_eff_kish": 21.690448707108374
+   },
+   "healthy|alpha": {
+    "ICC": 0.9054671512729578,
+    "DE": 24.04257784963596,
+    "N_eff": 31.9017371929447,
+    "DE_kish": 33.160021036477076,
+    "N_eff_kish": 23.130262769021638
+   },
+   "tumor|ln R0": {
+    "ICC": 0.9916697484043993,
+    "DE": 26.236285321463676,
+    "N_eff": 29.234321497964654,
+    "DE_kish": 36.2217304902642,
+    "N_eff_kish": 21.17513408715127
+   },
+   "tumor|ln Rinf": {
+    "ICC": 0.9011616614959833,
+    "DE": 23.933010558070194,
+    "N_eff": 32.047785970719346,
+    "DE_kish": 33.00710036828367,
+    "N_eff_kish": 23.237424416020673
+   },
+   "tumor|log10 fc": {
+    "ICC": 0.984363773170831,
+    "DE": 26.050360848278387,
+    "N_eff": 29.442970270820236,
+    "DE_kish": 35.96223977668811,
+    "N_eff_kish": 21.32792631278751
+   },
+   "tumor|alpha": {
+    "ICC": 0.9713714273025433,
+    "DE": 25.719728046526793,
+    "N_eff": 29.821466176178177,
+    "DE_kish": 35.50078281952527,
+    "N_eff_kish": 21.60515738199873
+   }
+  },
+  "N_eff_min": 29.234321497964654,
+  "N_eff_max": 49.248440963577785,
+  "N_eff_kish_min": 21.17513408715127,
+  "N_eff_kish_max": 35.94063345850341
+ },
+ "published_without_P2": {
+  "BA": 0.9,
+  "TP": 14,
+  "N1": 14,
+  "TN": 8,
+  "N0": 10
+ }
+}

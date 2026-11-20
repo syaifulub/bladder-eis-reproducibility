@@ -1,0 +1,54 @@
+{
+ "summary": {
+  "nested_pipeline|selected": {
+   "BA": 0.7125,
+   "Sens": 0.625,
+   "Spec": 0.8,
+   "TP": 10,
+   "N1": 16,
+   "TN": 8,
+   "N0": 10,
+   "AUC": 0.7625,
+   "SpectrumBA": 0.8252756008494323,
+   "RepeatSD": 0.015316641182923783
+  }
+ },
+ "nested_pipeline_choice": {
+  "P1": {
+   "representation": "freq",
+   "branch": "abs",
+   "inner_BA": 1.0
+  },
+  "P2": {
+   "representation": "cole",
+   "branch": "abs",
+   "inner_BA": 0.9142857142857144
+  },
+  "P3": {
+   "representation": "cole",
+   "branch": "abs",
+   "inner_BA": 0.95
+  },
+  "P4": {
+   "representation": "cole",
+   "branch": "abs",
+   "inner_BA": 0.9375
+  },
+  "P5": {
+   "representation": "freq",
+   "branch": "abs",
+   "inner_BA": 0.9375
+  },
+  "P6": {
+   "representation": "cole",
+   "branch": "abs",
+   "inner_BA": 0.9166666666666667
+  }
+ },
+ "ci": {
+  "nested_pipeline|selected": [
+   0.5,
+   1.0
+  ]
+ }
+}

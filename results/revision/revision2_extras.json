@@ -1,0 +1,355 @@
+{
+ "factorial": {
+  "BA": {
+   "SW_leaky": 1.0,
+   "SW_nested": 0.96875,
+   "SA_leaky": 0.86875,
+   "SA_nested": 0.81875
+  },
+  "valid_resamples": 9861,
+  "referencing_effect_nested_CI_check": [
+   0.0,
+   0.5
+  ],
+  "interaction": -0.018750000000000044,
+  "interaction_CI": [
+   -0.21666666666666667,
+   0.1071428571428572
+  ],
+  "sum_of_main_effects": 0.20000000000000007,
+  "combined_effect": 0.18125000000000002
+ },
+ "patient_level": {
+  "spectrum-wise, leaky (naive)": {
+   "macro_sens": 1.0,
+   "macro_spec": 1.0,
+   "patient_BA": 1.0,
+   "n_patients_all_correct": 6,
+   "n_patients": 6,
+   "n_patients_both_classes": 3,
+   "per_patient": [
+    {
+     "Patient": "P1",
+     "sens": 1.0,
+     "spec": 1.0,
+     "all_correct": true
+    },
+    {
+     "Patient": "P2",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P3",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P4",
+     "sens": 1.0,
+     "spec": 1.0,
+     "all_correct": true
+    },
+    {
+     "Patient": "P5",
+     "sens": 1.0,
+     "spec": 1.0,
+     "all_correct": true
+    },
+    {
+     "Patient": "P6",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    }
+   ]
+  },
+  "pre-specified (sample-wise, nested)": {
+   "macro_sens": 0.8333333333333334,
+   "macro_spec": 0.6111111111111112,
+   "patient_BA": 0.7222222222222223,
+   "n_patients_all_correct": 3,
+   "n_patients": 6,
+   "n_patients_both_classes": 3,
+   "per_patient": [
+    {
+     "Patient": "P1",
+     "sens": 1.0,
+     "spec": 0.8333333333333334,
+     "all_correct": false
+    },
+    {
+     "Patient": "P2",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P3",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P4",
+     "sens": 1.0,
+     "spec": 1.0,
+     "all_correct": true
+    },
+    {
+     "Patient": "P5",
+     "sens": 1.0,
+     "spec": 0.0,
+     "all_correct": false
+    },
+    {
+     "Patient": "P6",
+     "sens": 0.0,
+     "spec": NaN,
+     "all_correct": false
+    }
+   ]
+  },
+  "Cole absolute, sample-wise": {
+   "macro_sens": 1.0,
+   "macro_spec": 0.9444444444444445,
+   "patient_BA": 0.9722222222222223,
+   "n_patients_all_correct": 5,
+   "n_patients": 6,
+   "n_patients_both_classes": 3,
+   "per_patient": [
+    {
+     "Patient": "P1",
+     "sens": 1.0,
+     "spec": 0.8333333333333334,
+     "all_correct": false
+    },
+    {
+     "Patient": "P2",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P3",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P4",
+     "sens": 1.0,
+     "spec": 1.0,
+     "all_correct": true
+    },
+    {
+     "Patient": "P5",
+     "sens": 1.0,
+     "spec": 1.0,
+     "all_correct": true
+    },
+    {
+     "Patient": "P6",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    }
+   ]
+  },
+  "fully nested pipeline": {
+   "macro_sens": 1.0,
+   "macro_spec": 0.9444444444444445,
+   "patient_BA": 0.9722222222222223,
+   "n_patients_all_correct": 5,
+   "n_patients": 6,
+   "n_patients_both_classes": 3,
+   "per_patient": [
+    {
+     "Patient": "P1",
+     "sens": 1.0,
+     "spec": 0.8333333333333334,
+     "all_correct": false
+    },
+    {
+     "Patient": "P2",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P3",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P4",
+     "sens": 1.0,
+     "spec": 1.0,
+     "all_correct": true
+    },
+    {
+     "Patient": "P5",
+     "sens": 1.0,
+     "spec": 1.0,
+     "all_correct": true
+    },
+    {
+     "Patient": "P6",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    }
+   ]
+  },
+  "fully nested, size-matched": {
+   "macro_sens": 0.6666666666666666,
+   "macro_spec": 0.6111111111111112,
+   "patient_BA": 0.6388888888888888,
+   "n_patients_all_correct": 2,
+   "n_patients": 6,
+   "n_patients_both_classes": 3,
+   "per_patient": [
+    {
+     "Patient": "P1",
+     "sens": 1.0,
+     "spec": 0.8333333333333334,
+     "all_correct": false
+    },
+    {
+     "Patient": "P2",
+     "sens": 0.0,
+     "spec": NaN,
+     "all_correct": false
+    },
+    {
+     "Patient": "P3",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P4",
+     "sens": 1.0,
+     "spec": 1.0,
+     "all_correct": true
+    },
+    {
+     "Patient": "P5",
+     "sens": 1.0,
+     "spec": 0.0,
+     "all_correct": false
+    },
+    {
+     "Patient": "P6",
+     "sens": 0.0,
+     "spec": NaN,
+     "all_correct": false
+    }
+   ]
+  },
+  "pre-specified, size-matched": {
+   "macro_sens": 0.8333333333333334,
+   "macro_spec": 0.6111111111111112,
+   "patient_BA": 0.7222222222222223,
+   "n_patients_all_correct": 3,
+   "n_patients": 6,
+   "n_patients_both_classes": 3,
+   "per_patient": [
+    {
+     "Patient": "P1",
+     "sens": 1.0,
+     "spec": 0.8333333333333334,
+     "all_correct": false
+    },
+    {
+     "Patient": "P2",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P3",
+     "sens": 1.0,
+     "spec": NaN,
+     "all_correct": true
+    },
+    {
+     "Patient": "P4",
+     "sens": 1.0,
+     "spec": 1.0,
+     "all_correct": true
+    },
+    {
+     "Patient": "P5",
+     "sens": 1.0,
+     "spec": 0.0,
+     "all_correct": false
+    },
+    {
+     "Patient": "P6",
+     "sens": 0.0,
+     "spec": NaN,
+     "all_correct": false
+    }
+   ]
+  }
+ },
+ "drift_vs_class": {
+  "n_healthy_samples": 13,
+  "n_tumor_samples": 16,
+  "median_abs_rho": {
+   "healthy": 0.7939393939393938,
+   "tumor": 0.9743247694334649
+  },
+  "median_abs_drift_lnR0": {
+   "healthy": 0.0570718612064649,
+   "tumor": 0.054936660764314096
+  },
+  "share_positive_drift": {
+   "healthy": 0.5384615384615384,
+   "tumor": 0.875
+  },
+  "mannwhitney_p_abs_rho": 0.22726170273912027,
+  "mannwhitney_p_abs_drift": 0.5248630714869413,
+  "contrast_first_fifth": {
+   "P1": -1.4079666320817295,
+   "P2": 2.24632525279484,
+   "P3": -0.846145687404378,
+   "P4": -0.6333299289602314,
+   "P5": -1.265653623275035,
+   "P6": 0.8624926359172824
+  },
+  "contrast_last_fifth": {
+   "P1": -1.3177179685466383,
+   "P2": 2.313269868030284,
+   "P3": -0.8494600095085936,
+   "P4": -0.5819057192901813,
+   "P5": -1.3955816227523077,
+   "P6": 0.6760115135625738
+  },
+  "max_abs_change_in_contrast": 0.1864811223547086,
+  "sign_agreement": 6,
+  "n_patients": 6
+ },
+ "selection_aware_p": {
+  "B": 100,
+  "exceed": 0,
+  "p_hat": 0.009900990099009901,
+  "clopper_pearson_upper_95": 0.029513049607039925,
+  "clopper_pearson_two_sided_upper": 0.03621669264517641
+ },
+ "size_matched_BA": {
+  "nested_abs": 0.68125,
+  "nested_mah": 0.34375,
+  "nested_fusion": 0.81875,
+  "cole_abs": 0.8875,
+  "cole_mah": 0.30625,
+  "cole_fusion": 0.70625,
+  "published_abs": 0.84375,
+  "published_mah": 0.71875,
+  "published_fusion": 0.95
+ }
+}

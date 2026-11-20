@@ -1,7 +1,0 @@
-Patient,HealthySamples,HealthySpectra,TumorSamples,TumorSpectra,FrequencyPoints
-P1,6,105,6,110,100
-P2,1,36,2,90,100
-P3,1,45,4,180,50
-P4,2,90,1,45,50
-P5,2,16,2,20,50
-P6,1,16,1,14,20

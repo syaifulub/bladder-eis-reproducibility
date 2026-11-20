@@ -1,0 +1,10 @@
+{
+ "n_conditions": 140,
+ "reps": 20,
+ "n_subjects": 40,
+ "spearman": 0.6784793028896068,
+ "pearson": 0.9432265604369464,
+ "slope_through_half": 0.9207390526286041,
+ "rmse_line": 0.04598344257596051,
+ "ba_le_index_share": 0.6
+}

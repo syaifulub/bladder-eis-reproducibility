@@ -1,0 +1,465 @@
+Item,Manuscript,Computed,Status
+spectra,767.0,767.0,PASS
+tissue samples,29.0,29.0,PASS
+healthy samples,13.0,13.0,PASS
+tumor samples,16.0,16.0,PASS
+spectra per sample min,6.0,6.0,PASS
+spectra per sample max,45.0,45.0,PASS
+spectra per sample median,15.0,15.0,PASS
+evaluable samples,26.0,26.0,PASS
+evaluable healthy,10.0,10.0,PASS
+T1 P1 healthy samples,6.0,6.0,PASS
+T1 P1 healthy spectra,105.0,105.0,PASS
+T1 P1 tumor samples,6.0,6.0,PASS
+T1 P1 tumor spectra,110.0,110.0,PASS
+T1 P2 healthy samples,1.0,1.0,PASS
+T1 P2 healthy spectra,36.0,36.0,PASS
+T1 P2 tumor samples,2.0,2.0,PASS
+T1 P2 tumor spectra,90.0,90.0,PASS
+T1 P3 healthy samples,1.0,1.0,PASS
+T1 P3 healthy spectra,45.0,45.0,PASS
+T1 P3 tumor samples,4.0,4.0,PASS
+T1 P3 tumor spectra,180.0,180.0,PASS
+T1 P4 healthy samples,2.0,2.0,PASS
+T1 P4 healthy spectra,90.0,90.0,PASS
+T1 P4 tumor samples,1.0,1.0,PASS
+T1 P4 tumor spectra,45.0,45.0,PASS
+T1 P5 healthy samples,2.0,2.0,PASS
+T1 P5 healthy spectra,16.0,16.0,PASS
+T1 P5 tumor samples,2.0,2.0,PASS
+T1 P5 tumor spectra,20.0,20.0,PASS
+T1 P6 healthy samples,1.0,1.0,PASS
+T1 P6 healthy spectra,16.0,16.0,PASS
+T1 P6 tumor samples,1.0,1.0,PASS
+T1 P6 tumor spectra,14.0,14.0,PASS
+ICC healthy|ln R0,0.975,0.97488,PASS
+ICC healthy|ln Rinf,0.573,0.57269,PASS
+ICC healthy|log10 fc,0.967,0.96744,PASS
+ICC healthy|alpha,0.905,0.90547,PASS
+ICC tumor|ln R0,0.992,0.99167,PASS
+ICC tumor|ln Rinf,0.901,0.90116,PASS
+ICC tumor|log10 fc,0.984,0.98436,PASS
+ICC tumor|alpha,0.971,0.97137,PASS
+mean spectra per sample,26.4,26.448,PASS
+design effect,25.8,25.809,PASS
+effective n,29.7,29.718,PASS
+ICC ln|Z| 1 kHz,0.95,0.94986,PASS
+ICC ln|Z| 1 MHz,0.601,0.60115,PASS
+ICC ln|Z| monotone decreasing,1.0,1.0,PASS
+Cole fit error median (%),0.74,0.742,PASS
+Cole fit error p95 (%),2.03,2.025,PASS
+Cole fit error max (%),6.81,6.8087,PASS
+SE log10 fc median,0.016,0.01572,PASS
+fc outside window (n),59.0,59.0,PASS
+fc outside window (%),7.7,7.692,PASS
+fc outside P4 healthy,40.0,40.0,PASS
+fc outside P1 healthy,16.0,16.0,PASS
+fc outside P6 healthy,3.0,3.0,PASS
+within P1,1.4,1.3978,PASS
+within P4,0.95,0.9545,PASS
+within P5,1.51,1.5104,PASS
+between P1,0.85,0.8459,PASS
+between P5,2.27,2.2654,PASS
+between P4,48.7,48.7,PASS
+tumor P4,2.56,2.5624,PASS
+P4 between/tumor ratio,19.0,19.01,PASS
+drift median |rho|,0.96,0.9607,PASS
+drift |rho|>0.8 (%),62.0,62.07,PASS
+drift median |d ln R0|,0.057,0.05707,PASS
+contrast median |ln R0 ratio|,0.955,0.95537,PASS
+contrast fold,2.6,2.6,PASS
+T2 naive_leaky|fusion tumor correct,16.0,16.0,PASS
+T2 naive_leaky|fusion healthy correct,10.0,10.0,PASS
+T2 naive_leaky|fusion BA,1.0,1.0,PASS
+T2 naive_leaky|fusion CI low,1.0,1.0,PASS
+T2 naive_leaky|fusion CI high,1.0,1.0,PASS
+T2 naive_leaky|fusion AUC,1.0,1.0,PASS
+T2 naive_leaky|fusion spectrum BA,0.984,0.98395,PASS
+T2 naive_nested|fusion tumor correct,15.0,15.0,PASS
+T2 naive_nested|fusion healthy correct,10.0,10.0,PASS
+T2 naive_nested|fusion BA,0.969,0.96875,PASS
+T2 naive_nested|fusion CI low,0.857,0.85714,PASS
+T2 naive_nested|fusion CI high,1.0,1.0,PASS
+T2 naive_nested|fusion AUC,0.981,0.98125,PASS
+T2 naive_nested|fusion spectrum BA,0.965,0.9646,PASS
+T2 sa_leaky|fusion tumor correct,15.0,15.0,PASS
+T2 sa_leaky|fusion healthy correct,8.0,8.0,PASS
+T2 sa_leaky|fusion BA,0.869,0.86875,PASS
+T2 sa_leaky|fusion CI low,0.667,0.66667,PASS
+T2 sa_leaky|fusion CI high,0.964,0.96429,PASS
+T2 sa_leaky|fusion AUC,0.875,0.875,PASS
+T2 sa_leaky|fusion spectrum BA,0.93,0.92959,PASS
+T2 sa_nested|fusion tumor correct,15.0,15.0,PASS
+T2 sa_nested|fusion healthy correct,7.0,7.0,PASS
+T2 sa_nested|fusion BA,0.819,0.81875,PASS
+T2 sa_nested|fusion CI low,0.429,0.42857,PASS
+T2 sa_nested|fusion CI high,0.964,0.96429,PASS
+T2 sa_nested|fusion AUC,0.812,0.8125,PASS
+T2 sa_nested|fusion spectrum BA,0.912,0.91238,PASS
+T3 ref (nested),0.15,0.15,PASS
+T3 ref (nested) CI low,0.0,0.0,PASS
+T3 ref (nested) CI high,0.5,0.5,PASS
+T3 ref (leaky),0.131,0.13125,PASS
+T3 ref (leaky) CI low,0.036,0.03571,PASS
+T3 ref (leaky) CI high,0.333,0.33333,PASS
+T3 sel (spectrum-wise),0.031,0.03125,PASS
+T3 sel (spectrum-wise) CI low,0.0,0.0,PASS
+T3 sel (spectrum-wise) CI high,0.143,0.14286,PASS
+T3 sel (sample-wise),0.05,0.05,PASS
+T3 sel (sample-wise) CI low,0.0,0.0,PASS
+T3 sel (sample-wise) CI high,0.25,0.25,PASS
+T3 combined,0.181,0.18125,PASS
+T3 combined CI low,0.036,0.03571,PASS
+T3 combined CI high,0.571,0.57143,PASS
+T3 ref Mahalanobis,0.625,0.625,PASS
+T3 ref Mahalanobis CI low,0.5,0.5,PASS
+T3 ref Mahalanobis CI high,0.794,0.79412,PASS
+T3 ref absolute,0.206,0.20625,PASS
+T3 ref absolute CI low,0.0,0.0,PASS
+T3 ref absolute CI high,0.349,0.34881,PASS
+spectrum-sample gap (pp),9.4,9.363,PASS
+bootstrap discarded,139.0,139.0,PASS
+naive P6 fold min (kHz),121.0,120.68,PASS
+naive P6 fold max (kHz),212.0,212.09,PASS
+naive leaky min (kHz),11.0,10.98,PASS
+naive leaky max (kHz),26.0,25.59,PASS
+naive P1 fold two low freqs < 3 kHz,2.0,2.0,PASS
+naive folds with >=3 in 10-34 kHz (P1-P5),5.0,5.0,PASS
+SA folds all >= 139 kHz,5.0,5.0,PASS
+SA P5 fold min (kHz),8.3,8.286,PASS
+SA P5 fold max (kHz),19.3,19.307,PASS
+SA leaky min (kHz),160.0,159.99,PASS
+SA leaky max (kHz),1000.0,1000.0,PASS
+T5 naive_nested|abs,0.888,0.8875,PASS
+T5 naive_nested|mah,0.969,0.96875,PASS
+T5 naive_nested|fusion,0.969,0.96875,PASS
+T5 sa_nested|abs,0.681,0.68125,PASS
+T5 sa_nested|mah,0.344,0.34375,PASS
+T5 sa_nested|fusion,0.819,0.81875,PASS
+T5 sa_nested|innerw,0.681,0.68125,PASS
+T5 naive_leaky|abs,0.825,0.825,PASS
+T5 naive_leaky|mah,1.0,1.0,PASS
+T5 naive_leaky|fusion,1.0,1.0,PASS
+T5 sa_leaky|abs,0.781,0.78125,PASS
+T5 sa_leaky|mah,0.344,0.34375,PASS
+T5 sa_leaky|fusion,0.869,0.86875,PASS
+T5 sa_published|abs,0.813,0.8125,PASS
+T5 sa_published|mah,0.563,0.5625,PASS
+T5 sa_published|fusion,0.9,0.9,PASS
+T5 sa_generic|abs,0.813,0.8125,PASS
+T5 sa_generic|mah,0.506,0.50625,PASS
+T5 sa_generic|fusion,0.763,0.7625,PASS
+T5 naive_cole|abs,0.95,0.95,PASS
+T5 naive_cole|mah,0.65,0.65,PASS
+T5 naive_cole|fusion,0.888,0.8875,PASS
+T5 sa_cole|abs,0.95,0.95,PASS
+T5 sa_cole|mah,0.438,0.4375,PASS
+T5 sa_cole|fusion,0.694,0.69375,PASS
+T5 sa_cole|innerw,0.856,0.85625,PASS
+SA nested mah healthy correct,0.0,0.0,PASS
+SA nested mah CI low,0.15,0.15,PASS
+SA nested mah CI high,0.472,0.47222,PASS
+published CI low,0.833,0.83333,PASS
+published CI high,1.0,1.0,PASS
+published tumor correct,16.0,16.0,PASS
+published healthy correct,8.0,8.0,PASS
+generic CI low,0.586,0.58597,PASS
+generic CI high,1.0,1.0,PASS
+published - nested,0.081,0.08125,PASS
+published - nested CI low,-0.071,-0.07143,PASS
+published - nested CI high,0.571,0.57143,PASS
+Cole abs SA CI low,0.917,0.91667,PASS
+Cole abs SA CI high,1.0,1.0,PASS
+Cole abs tumor correct,16.0,16.0,PASS
+Cole abs healthy correct,9.0,9.0,PASS
+Cole inner CI low,0.7,0.7,PASS
+Cole inner CI high,0.962,0.96154,PASS
+Cole weights min,0.6,0.6,PASS
+Cole weights max,1.0,1.0,PASS
+freq weights min,0.5,0.5,PASS
+freq weights max,0.7,0.7,PASS
+corrected correct samples,22.0,22.0,PASS
+misclassified n min,6.0,6.0,PASS
+misclassified n max,14.0,14.0,PASS
+correct mean n,28.6,28.636,PASS
+P1 tumor prob min,0.508,0.50769,PASS
+P1 tumor prob max,0.508,0.50819,PASS
+P1 wrong healthy prob,0.507,0.50662,PASS
+T6 sa_nested|fusion|cb tumor,15.0,15.0,PASS
+T6 sa_nested|fusion|cb healthy,8.0,8.0,PASS
+T6 sa_nested|fusion|cb BA,0.869,0.86875,PASS
+T6 sa_cole|abs|cb tumor,13.0,13.0,PASS
+T6 sa_cole|abs|cb healthy,9.0,9.0,PASS
+T6 sa_cole|abs|cb BA,0.856,0.85625,PASS
+T6 sa_cole|fusion|cb tumor,10.0,10.0,PASS
+T6 sa_cole|fusion|cb healthy,9.0,9.0,PASS
+T6 sa_cole|fusion|cb BA,0.763,0.7625,PASS
+T6 noP2_naive_nested|fusion tumor,13.0,13.0,PASS
+T6 noP2_naive_nested|fusion healthy,10.0,10.0,PASS
+T6 noP2_naive_nested|fusion BA,0.964,0.96429,PASS
+T6 noP2_sa_nested|fusion tumor,13.0,13.0,PASS
+T6 noP2_sa_nested|fusion healthy,8.0,8.0,PASS
+T6 noP2_sa_nested|fusion BA,0.864,0.86429,PASS
+T6 noP2_sa_cole|abs tumor,13.0,13.0,PASS
+T6 noP2_sa_cole|abs healthy,9.0,9.0,PASS
+T6 noP2_sa_cole|abs BA,0.914,0.91429,PASS
+T6 sa_coleR|abs tumor,16.0,16.0,PASS
+T6 sa_coleR|abs healthy,9.0,9.0,PASS
+T6 sa_coleR|abs BA,0.95,0.95,PASS
+T6 sa_coleR|mah tumor,1.0,1.0,PASS
+T6 sa_coleR|mah healthy,3.0,3.0,PASS
+T6 sa_coleR|mah BA,0.181,0.18125,PASS
+T6 sa_coleR|fusion tumor,11.0,11.0,PASS
+T6 sa_coleR|fusion healthy,5.0,5.0,PASS
+T6 sa_coleR|fusion BA,0.594,0.59375,PASS
+noP2 referencing effect (pp),10.0,10.0,PASS
+P2 tumor/healthy R0 ratio,10.4,10.359,PASS
+other patients with lower tumor R0,4.0,4.0,PASS
+T7 cole|naive|fusion null mean,0.696,0.69596,PASS
+T7 cole|naive|fusion q025,0.512,0.5125,PASS
+T7 cole|naive|fusion q975,0.869,0.86875,PASS
+T7 cole|naive|fusion observed,0.887,0.8875,PASS
+T7 cole|naive|fusion p,0.019,0.01898,PASS
+T7 cole|sa|fusion null mean,0.454,0.45428,PASS
+T7 cole|sa|fusion q025,0.312,0.3125,PASS
+T7 cole|sa|fusion q975,0.637,0.6375,PASS
+T7 cole|sa|fusion observed,0.694,0.69375,PASS
+T7 cole|sa|fusion p,0.01,0.00999,PASS
+T7 cole|naive|abs null mean,0.563,0.56349,PASS
+T7 cole|naive|abs q025,0.344,0.34375,PASS
+T7 cole|naive|abs q975,0.806,0.80625,PASS
+T7 cole|naive|abs observed,0.95,0.95,PASS
+T7 cole|naive|abs p,0.001,0.001,PASS
+T7 cole|sa|abs null mean,0.459,0.45906,PASS
+T7 cole|sa|abs q025,0.312,0.3125,PASS
+T7 cole|sa|abs q975,0.7,0.7,PASS
+T7 cole|sa|abs observed,0.95,0.95,PASS
+T7 cole|sa|abs p,0.001,0.001,PASS
+T7 cole|naive|mah null mean,0.764,0.76386,PASS
+T7 cole|naive|mah q025,0.619,0.61859,PASS
+T7 cole|naive|mah q975,0.906,0.90625,PASS
+T7 cole|naive|mah observed,0.65,0.65,PASS
+T7 cole|naive|mah p,0.957,0.95704,PASS
+T7 cole|sa|mah null mean,0.459,0.45863,PASS
+T7 cole|sa|mah q025,0.25,0.25,PASS
+T7 cole|sa|mah q975,0.669,0.66875,PASS
+T7 cole|sa|mah observed,0.438,0.4375,PASS
+T7 cole|sa|mah p,0.582,0.58242,PASS
+T7 published|naive|fusion null mean,0.74,0.7401,PASS
+T7 published|naive|fusion q025,0.562,0.5625,PASS
+T7 published|naive|fusion q975,0.906,0.90625,PASS
+T7 published|naive|fusion observed,0.875,0.875,PASS
+T7 published|naive|fusion p,0.081,0.08092,PASS
+T7 published|sa|fusion null mean,0.445,0.44547,PASS
+T7 published|sa|fusion q025,0.312,0.3125,PASS
+T7 published|sa|fusion q975,0.656,0.65641,PASS
+T7 published|sa|fusion observed,0.9,0.9,PASS
+T7 published|sa|fusion p,0.001,0.001,PASS
+T7 published|naive|mah null mean,0.823,0.8233,PASS
+T7 published|naive|mah q025,0.719,0.71875,PASS
+T7 published|naive|mah q975,0.938,0.9375,PASS
+T7 published|naive|mah observed,1.0,1.0,PASS
+T7 published|naive|mah p,0.001,0.001,PASS
+T7 published|sa|mah null mean,0.424,0.42407,PASS
+T7 published|sa|mah q025,0.25,0.25,PASS
+T7 published|sa|mah q975,0.625,0.625,PASS
+T7 published|sa|mah observed,0.563,0.5625,PASS
+T7 published|sa|mah p,0.088,0.08791,PASS
+permutations,1000.0,1000.0,PASS
+published naive mah null >= 0.75 (%),95.8,95.8,PASS
+SA null mean min,0.424,0.42407,PASS
+SA null mean max,0.484,0.48368,PASS
+SA null q975 min,0.625,0.625,PASS
+SA null q975 max,0.75,0.75016,PASS
+folds choosing absolute branch,6.0,6.0,PASS
+folds choosing Cole,6.0,6.0,PASS
+inner BA of chosen pipeline min,0.866,0.86607,PASS
+inner BA of chosen pipeline max,1.0,1.0,PASS
+folds where Cole abs beats best frequency candidate,6.0,6.0,PASS
+inner folds with LOSO fallback,6.0,6.0,PASS
+inner folds total,30.0,30.0,PASS
+nested pipeline BA,0.95,0.95,PASS
+nested pipeline tumor,16.0,16.0,PASS
+nested pipeline healthy,9.0,9.0,PASS
+nested pipeline CI low,0.917,0.91667,PASS
+nested pipeline CI high,1.0,1.0,PASS
+nested pipeline - pre-specified,0.131,0.13125,PASS
+nested pipeline - pre-specified CI low,0.0,0.0,PASS
+nested pipeline - pre-specified CI high,0.571,0.57143,PASS
+nested pipeline equals Cole abs,1.0,1.0,PASS
+partial: max rise of best frequency candidate,0.375,0.375,PASS
+partial: P1 best frequency inner BA,1.0,1.0,PASS
+full: P1 best frequency inner BA,0.625,0.625,PASS
+partial: P1 chose frequency abs,1.0,1.0,PASS
+partial: P5 chose frequency abs,1.0,1.0,PASS
+partial pipeline BA,0.713,0.7125,PASS
+partial pipeline tumor,10.0,10.0,PASS
+partial pipeline healthy,8.0,8.0,PASS
+matched matched_nested|fusion,0.819,0.81875,PASS
+matched matched_cole|abs,0.887,0.8875,PASS
+matched matched_published|fusion,0.95,0.95,PASS
+matched matched_nested|mah,0.344,0.34375,PASS
+matched matched_cole|mah,0.306,0.30625,PASS
+matched nested correct samples,22.0,22.0,PASS
+P2 swap evaluable healthy,12.0,12.0,PASS
+P2 swap evaluable tumor,15.0,15.0,PASS
+T6 p2_naive_nested|fusion tumor,15.0,15.0,PASS
+T6 p2_naive_nested|fusion healthy,10.0,10.0,PASS
+T6 p2_naive_nested|fusion BA,0.917,0.91667,PASS
+T6 p2_sa_nested|fusion tumor,10.0,10.0,PASS
+T6 p2_sa_nested|fusion healthy,6.0,6.0,PASS
+T6 p2_sa_nested|fusion BA,0.583,0.58333,PASS
+T6 p2_sa_cole|abs tumor,14.0,14.0,PASS
+T6 p2_sa_cole|abs healthy,9.0,9.0,PASS
+T6 p2_sa_cole|abs BA,0.842,0.84167,PASS
+T6 p2_sa_published|fusion tumor,13.0,13.0,PASS
+T6 p2_sa_published|fusion healthy,10.0,10.0,PASS
+T6 p2_sa_published|fusion BA,0.85,0.85,PASS
+P2 swap referencing effect,0.333,0.33333,PASS
+P2 swap effect CI low,0.113,0.1131,PASS
+P2 swap effect CI high,0.76,0.75962,PASS
+T6 lr_naive_nested|fusion tumor,10.0,10.0,PASS
+T6 lr_naive_nested|fusion healthy,10.0,10.0,PASS
+T6 lr_naive_nested|fusion BA,0.812,0.8125,PASS
+T6 lr_naive_leaky|fusion tumor,13.0,13.0,PASS
+T6 lr_naive_leaky|fusion healthy,9.0,9.0,PASS
+T6 lr_naive_leaky|fusion BA,0.856,0.85625,PASS
+T6 lr_sa_nested|fusion tumor,11.0,11.0,PASS
+T6 lr_sa_nested|fusion healthy,8.0,8.0,PASS
+T6 lr_sa_nested|fusion BA,0.744,0.74375,PASS
+T6 lr_sa_leaky|fusion tumor,11.0,11.0,PASS
+T6 lr_sa_leaky|fusion healthy,9.0,9.0,PASS
+T6 lr_sa_leaky|fusion BA,0.794,0.79375,PASS
+T6 lr_naive_cole|abs tumor,15.0,15.0,PASS
+T6 lr_naive_cole|abs healthy,9.0,9.0,PASS
+T6 lr_naive_cole|abs BA,0.919,0.91875,PASS
+T6 lr_sa_cole|abs tumor,16.0,16.0,PASS
+T6 lr_sa_cole|abs healthy,7.0,7.0,PASS
+T6 lr_sa_cole|abs BA,0.85,0.85,PASS
+T6 lr_sa_nested|mah tumor,16.0,16.0,PASS
+T6 lr_sa_nested|mah healthy,0.0,0.0,PASS
+T6 lr_sa_nested|mah BA,0.5,0.5,PASS
+LR referencing effect nested,0.069,0.06875,PASS
+LR referencing effect leaky,0.063,0.0625,PASS
+LR referencing effect Cole fusion,0.138,0.1375,PASS
+LR Cole Mahalanobis SA,0.438,0.4375,PASS
+LR Cole Mahalanobis SA healthy correct,0.0,0.0,PASS
+"sim naive opt min (null, m>=5)",-0.026,-0.02565,PASS
+"sim naive opt max (null, m>=5)",0.437,0.43662,PASS
+sim naive opt ICC0.1 m5 (null),-0.026,-0.02565,PASS
+sim naive opt ICC0.97 m30 (null),0.437,0.43662,PASS
+sim naive opt max abstract,0.44,0.4366,PASS
+sim naive opt min (effect),0.027,0.0269,PASS
+sim naive opt max (effect),0.273,0.27333,PASS
+sim naive est ICC0.97 m15 (null),0.935,0.93519,PASS
+sim naive est ICC0.97 m15 (effect),0.987,0.98704,PASS
+sim naive true ICC0.97 m15 (effect),0.742,0.74153,PASS
+sim sa true ICC0.97 m15 (effect),0.828,0.82764,PASS
+"sim sa opt min (effect, m>=5)",-0.087,-0.08704,PASS
+"sim sa opt max (effect, m>=5)",-0.008,-0.00796,PASS
+"sim sa opt max (null, m>=5)",0.17,0.17032,PASS
+sim sa opt m1 min (effect),0.122,0.12241,PASS
+sim sa opt m1 max (null),0.359,0.35935,PASS
+sim matched opt min (null),-0.049,-0.04931,PASS
+sim matched opt max (effect),0.066,0.06648,PASS
+sim xgb naive opt null ICC0.97,0.439,0.43896,PASS
+sim xgb naive opt effect ICC0.97,0.276,0.27576,PASS
+sim xgb matched opt min,-0.036,-0.03618,PASS
+sim xgb matched opt max,0.04,0.04042,PASS
+sim precision n6 h3 lo,0.708,0.70764,PASS
+sim precision n6 h3 hi,0.972,0.97222,PASS
+sim precision n6 h3 width,0.265,0.26458,PASS
+sim precision n6 h3 width (about 0.26),0.26,0.2646,PASS
+sim precision n6 h2 width,0.327,0.32743,PASS
+sim precision n24 h3 width,0.139,0.13924,PASS
+sim precision n24 h3 width (about 0.14),0.14,0.1392,PASS
+sim precision n48 h3 width,0.085,0.08516,PASS
+sim precision mean true BA,0.831,0.83107,PASS
+N_eff min,29.2,29.234,PASS
+N_eff max,49.2,49.248,PASS
+N_eff Kish min,21.2,21.175,PASS
+N_eff Kish max,35.9,35.941,PASS
+Discussion: 21 to 49 observations (min),21.0,21.18,PASS
+Discussion: 21 to 49 (max),49.0,49.25,PASS
+share of outer sample-wise selections above 100 kHz (%),83.0,83.33,PASS
+Jaccard sample-wise outer,0.14,0.1394,PASS
+Jaccard sample-wise inner,0.13,0.1347,PASS
+Jaccard spectrum-wise outer,0.25,0.246,PASS
+fallback_generic tumor,16.0,16.0,PASS
+fallback_generic N1,16.0,16.0,PASS
+fallback_generic healthy,9.0,9.0,PASS
+fallback_generic N0,10.0,10.0,PASS
+fallback_generic BA,0.95,0.95,PASS
+fallback_outer tumor,10.0,10.0,PASS
+fallback_outer N1,16.0,16.0,PASS
+fallback_outer healthy,8.0,8.0,PASS
+fallback_outer N0,10.0,10.0,PASS
+fallback_outer BA,0.713,0.7125,PASS
+matched tumor,13.0,13.0,PASS
+matched N1,16.0,16.0,PASS
+matched healthy,7.0,7.0,PASS
+matched N0,10.0,10.0,PASS
+matched BA,0.756,0.75625,PASS
+p2_excluded tumor,13.0,13.0,PASS
+p2_excluded N1,14.0,14.0,PASS
+p2_excluded healthy,9.0,9.0,PASS
+p2_excluded N0,10.0,10.0,PASS
+p2_excluded BA,0.914,0.91429,PASS
+p2_exchanged tumor,7.0,7.0,PASS
+p2_exchanged N1,15.0,15.0,PASS
+p2_exchanged healthy,9.0,9.0,PASS
+p2_exchanged N0,12.0,12.0,PASS
+p2_exchanged BA,0.608,0.60833,PASS
+fallback generic: Cole abs in all folds,6.0,6.0,PASS
+fallback outer: frequency abs in P1 and P5,2.0,2.0,PASS
+fallback outer equals all-fold reuse (choices),1.0,1.0,PASS
+fallback outer equals all-fold reuse (BA),0.713,0.7125,PASS
+matched CI low,0.308,0.30769,PASS
+matched CI high,0.923,0.92262,PASS
+matched: folds with Cole abs,4.0,4.0,PASS
+matched: both P2 tumor samples misclassified,2.0,2.0,PASS
+P2 excluded: Cole abs in all five folds,5.0,5.0,PASS
+P2 exchanged: distinct pipelines,4.0,4.0,PASS
+T7 published without P2,0.9,0.9,PASS
+corrected range min,0.583,0.58333,PASS
+corrected range max,0.95,0.95,PASS
+conclusion: down to 0.61,0.61,0.6083,PASS
+influence fully nested min,0.938,0.9375,PASS
+influence fully nested max,1.0,1.0,PASS
+influence pre-specified min,0.7,0.7,PASS
+influence pre-specified min is P1,1.0,1.0,PASS
+influence pre-specified max,0.902,0.90179,PASS
+influence pre-specified max is P5,1.0,1.0,PASS
+seed Cole abs min,0.919,0.91875,PASS
+seed Cole abs max,0.95,0.95,PASS
+seed Cole abs samples changing class,1.0,1.0,PASS
+seed pre-specified samples changing class,0.0,0.0,PASS
+seed pre-specified BA range,0.0,0.0,PASS
+in-window Cole abs BA,0.95,0.95,PASS
+in-window tumor,16.0,16.0,PASS
+in-window healthy,9.0,9.0,PASS
+out-of-window spectra,59.0,59.0,PASS
+misclassified sample out-of-window spectra,14.0,14.0,PASS
+misclassified sample is healthy P1,1.0,1.0,PASS
+paired: nested sa - matched difference,0.194,0.19375,PASS
+paired: nested difference CI low,0.023,0.02273,PASS
+paired: nested difference CI high,0.692,0.69231,PASS
+paired: Cole abs sa - matched difference,0.063,0.0625,PASS
+paired: Cole abs difference CI low,0.0,0.0,PASS
+paired: Cole abs difference CI high,0.25,0.25,PASS
+paired: pre-specified unchanged,0.0,0.0,PASS
+paired: valid bootstrap draws,9861.0,9861.0,PASS
+selection-aware: permutations,100.0,100.0,PASS
+selection-aware: observed,0.95,0.95,PASS
+selection-aware: null mean,0.471,0.47112,PASS
+selection-aware: null 2.5%,0.315,0.31547,PASS
+selection-aware: null 97.5%,0.691,0.69141,PASS
+selection-aware: p,0.0099,0.009901,PASS
+selection-aware: observed above all permutations,1.0,1.0,PASS
+pre-specified (same runs): observed,0.819,0.81875,PASS
+pre-specified (same runs): null mean,0.455,0.4555,PASS
+pre-specified (same runs): p,0.0099,0.009901,PASS
+sim ext: max naive optimism across departures,0.422,0.42231,PASS
+sim ext: min size-matched optimism across departures,-0.027,-0.02667,PASS
+sim ext: max size-matched optimism across departures,0.029,0.0287,PASS
+sim ext: base reproduces naive null estimate,0.935,0.93519,PASS

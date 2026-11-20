@@ -1,0 +1,43 @@
+# Virtual environments and local editor settings
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Downloads and generated results; the reference results/ folder stays tracked
+/electrical-impedance-data-bladder/
+/outputs_ijs/
+/outputs_cole/
+/ijs_results_bundle.zip
+*.pickle
+*.pkl
+*.joblib
+
+# OS and testing artifacts
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# external dataset (download separately)
+Dataset_EBI_3.csv
+outputs_hn/
+
+# WESAD data and outputs (download separately)
+WESAD_data/
+wesad_outputs/
+wesad_outputs.zip
+
+# PhysioNet Non-EEG raw data (download separately)
+non-eeg-dataset-for-assessment-of-neurological-status-1.0.0/

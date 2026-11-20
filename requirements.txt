@@ -1,0 +1,11 @@
+# Supported dependency ranges (the original recorded environment is documented in README)
+numpy>=1.26,<3
+pandas>=2.2,<4
+scipy>=1.13,<2
+scikit-learn>=1.4,<2
+xgboost>=2.1,<4
+matplotlib>=3.8,<4
+openpyxl>=3.1,<4
+ipython>=8,<10
+ipykernel>=6,<8
+jupyterlab>=4,<5
